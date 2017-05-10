@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="casual"
+        android:text="Type of Speed Conversion:"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/knot_mph"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:fontFamily="casual"
+        android:text="@string/knots_MPH"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/mps_mph"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/mps_mph"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:fontFamily="casual"
+        android:text="@string/mps_mph"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/mph_kmph"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/mph_kmph"
+        android:layout_width="302dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:fontFamily="casual"
+        android:text="@string/mph_kmph"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginTop="211dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>

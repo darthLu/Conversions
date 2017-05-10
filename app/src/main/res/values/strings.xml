@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Conversions</string>
+    <string name="action_settings">Settings</string>
+
+    //Length info
+    <string name="lengthButton">Length</string>
+    <string name="foot_mile">Foot to Mile</string>
+    <string name="meter_foot">Meter to Foot</string>
+    <string name="inch_foot">Inch to Foot</string>
+    <string name="foot">Enter ft</string>
+    <string name="ftMeterCalcButton">Calculate</string>
+    <string name="ftMileCalcButton">Calculate</string>
+
+    //Temperature Info
+    <string name="tempButton">Temperature</string>
+    <string name="fah_cel">Fahrenheit to Celsius</string>
+    <string name="cel_kel">Celsius to Kelvin</string>
+    <string name="fah_kel">Fahrenheit to Kelvin</string>
+
+
+    //Speed Info
+    <string name="speedButton">Speed</string>
+    <string name="mph_kmph">MPH to KMPH</string>
+    <string name="mps_mph">M/S to MPH</string>
+    <string name="knots_MPH">Knots to MPH</string>
+
+
+    //extras
+    <string name="clearButton">Clear</string>
+
+
+</resources>

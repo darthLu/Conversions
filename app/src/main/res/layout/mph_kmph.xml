@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="casual"
+        android:text="Clear"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:text="@string/clearButton" />
+
+    <EditText
+        android:id="@+id/mphtext"
+        android:layout_width="277dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="Enter mph"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/fahCelCalcButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kmphCalculated"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="119dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:fontFamily="casual"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/mphKmphCalcButton"
+        android:layout_width="275dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:fontFamily="casual"
+        android:text="Calculate"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/kmphCalculated"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mphtext"
+        app:layout_constraintVertical_bias="0.511" />
+</android.support.constraint.ConstraintLayout>
